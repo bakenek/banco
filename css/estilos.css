@@ -1,5 +1,6 @@
 
 @charset "utf-8";
+
 body{
 margin: 0;
 padding: 0;
@@ -36,9 +37,9 @@ position: relative;
     
     border-radius: 40px;
     border-color: transparent;
-    background-color: #ffae00;
+    background-color: #DC662D;
     color: #ffffff;
-    right: 55px;
+    right: 60px;
 }
 
 .but a{
@@ -54,12 +55,66 @@ position: relative;
 }
 
 
+.efecto{
+  width: 100%;
+  height: 495px;
+  position: relative;
+  display: flex;
+  align-items:end;
+  justify-content: right;
+  background: linear-gradient(90deg, rgba(0,84,133,1) 30% ,  rgba(0,84,133,0.5) 60% , 
+   rgba(3,120,187,0) 66%  ),
+   url(../img/nino-padres-felices-tiro-medio-edit.jpg);
+   background-size:contain;
+   background-position: right;
+   background-repeat: no-repeat;
+
+}
+
+
+.texto{
+  color: #ffffff;
+}
+
+.texto h1{
+  position: absolute;
+  top: 20px;
+  left: 170px;
+  font-size: 40px;
+}
+
+.texto p{
+
+  position: absolute;
+  top: 150px;
+  left: 170px;
+  font-size: 18px;
+}
+
+.texto ul{
+  position: absolute;
+  top: 230px;
+  left: 170px;
+  font-size: 18px;
+}
+.texto li{
+  
+  color: #DC662D;
+}
+
+.texto li span{
+  color: #ffffff;
+}
+
 /* Add a black background color to the top navigation */
 .topnav {
     background-color: #ffffff;
     overflow: hidden;
     display: flex;
     justify-content: center;
+    
+    margin-top: 35px;
+
 
   }
   
@@ -77,12 +132,13 @@ position: relative;
   /* Change the color of links on hover */
   .topnav a:hover {
     background-color: #ffffff;
-    color: rgb(255, 187, 0);
+    color:rgba(220,102,45,1);
   }
   
   /* Add a color to the active/current link */
   .topnav a.active {
     background-color: #ffffff;
-    color: rgb(255, 209, 3);
+    color: rgba(220,102,45,1);
   }
+  
   

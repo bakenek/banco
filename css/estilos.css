@@ -456,6 +456,9 @@ position: relative;
 
 .pie{
   background-color: #dfdfdf;
+  position: relative;
+  display: flex;
+  height: 455px;
 }
 
 .pie__logo img{
@@ -463,6 +466,55 @@ position: relative;
   max-width: 190px;
 
 }
-  
+
+.social{
+position: absolute;
+top: 40px;
+right: 40px;
+}
+
+.social img{
+height: 50px;
+margin-right: 10px;
+}
+
+.pie p{
+  color: #535353;
+  text-align: center;
+  position: absolute;
+  top: 170px;
+  left: 50%;
+  transform: translate(-50%, -0%);
+  font-size: 17px;
+
+}
+
+.pie h3{
+  position: absolute;
+  top: 138px;
+  left: 50%;
+  transform: translate(-50%, -0%);
+  font-weight: bold;
+
+}
+
+ #ubicanos{
+  max-width: 25px;
+  filter: invert(26%) sepia(100%) saturate(638%) hue-rotate(164deg) brightness(89%) contrast(108%);
+ }
+
+ #Copyrigh{
+  color: #535353;
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  top: 350px;
+  left: 50%;
+  transform: translate(-50%, -0%);
+  font-size: 12px;
+
+ }
+
+
 
   

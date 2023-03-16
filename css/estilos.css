@@ -5,6 +5,7 @@
   font-family: century-gothic, sans-serif;
   font-weight: 400;
   font-style: normal;
+  overflow-x: hidden;
 }
 
 
@@ -123,14 +124,14 @@ position: relative;
 
 
 .travel{
-  margin: 130px 0 35px;
+  margin: 130px 0px 0px 0px;
   width: 100%;
   height: 400px;
   position: relative;
   display: flex;
   align-items:end;
   justify-content: right;
-  background: linear-gradient(90deg, rgba(0,84,133,1) 57% ,  rgba(0,84,133,0.5) 75% , 
+  background: linear-gradient(90deg, rgba(0,84,133,1) 57% , rgba(0,84,133,0.5) 75% , 
    rgba(3,120,187,0) 85%  ),
    url(../img/cerrar-sonriente-nina-abrazando-padre-.jpg);
    
@@ -139,6 +140,66 @@ position: relative;
    background-repeat: no-repeat;
 
 }
+
+.list{
+
+  width: 100%;
+  background-color: #ffffff;
+  overflow: hidden;
+  display: flex;
+  padding-bottom: 100px;
+
+}
+
+.list ul{
+  display: contents;
+  
+  
+}
+
+
+.pasos{
+  width: 635px;
+  height: 500px;
+  position: relative;
+  display: flex;
+  align-items:end;
+  justify-content: left;
+  background: linear-gradient(0deg, rgba(0,84,133,1) 20% ,  rgba(0,84,133,0.5) 60% , 
+   rgba(3,120,187,0) 85%  ),
+   url(../img/mujer-tiro-medio-trabajando-tarde-noche.jpg);
+   
+   background-size:contain;
+   background-position: left;
+   background-repeat: no-repeat;
+   
+}
+
+.pasos:hover{
+  transform: scale(1.01);
+  }
+
+.impulsamos{
+  width: 635px;
+  height: 500px;
+  position: absolute;
+  display: flex;
+  align-items:end;
+  justify-content: right;
+  background: linear-gradient(0deg, rgba(0,84,133,1) 20% ,  rgba(0,84,133,0.5) 60% , 
+   rgba(3,120,187,0) 85%  ),
+   url(../img/ceramista-asiatica-delantal-pecho-seguro-mano-su-estudio-escultura-arcilla-taller-calida-bienvenida-sonriente-positiva-lista-comenzar-nuevo-taller-ceramica-fabrica-nueva-coleccion-trabajo.jpg);
+   right: 0;
+   background-size:contain;
+   background-position: right;
+   background-repeat: no-repeat;
+   
+}
+
+
+.impulsamos:hover{
+  transform: scale(1.01);
+  }
 
 
 .texto{
@@ -235,8 +296,8 @@ position: relative;
 .travel__texto p{
 
   position: absolute;
-  top: 30px;
-  left: 0px;
+  top: 212px;
+  left: 120px;
   font-size: 15px;
 }
 
@@ -244,14 +305,14 @@ position: relative;
   position: absolute;
   height: 120px;
   top: 75px;
-  left: 100px;
+  left: 120px;
 
 }
 
 .cotiza2{
   position: absolute;
-  top: 120px;
-  left: 170px;
+  top: 275px;
+  left: 285px;
 }
 
 
@@ -261,11 +322,34 @@ position: relative;
   border-color: transparent;
   height: 5px;
   top: 45px;
-  left: 118px;
+  left: 120px;
   width: 5%;
 
 }
 
+
+
+.pasos__texto{
+  color: #ffffff;
+}
+
+.pasos__texto h1{
+  position: absolute;
+  width: 100%;
+  bottom: 90px;
+  left: 115px;
+  font-size: 29px;
+  font-weight: bold;
+}
+
+.pasos__texto p{
+
+  position: absolute;
+  bottom: 25px;
+  left: 67px;
+  font-size: 20px;
+  text-align: center;
+}
 
 
 

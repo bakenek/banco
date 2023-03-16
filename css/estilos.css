@@ -1,11 +1,17 @@
 
 @charset "utf-8";
 
+*{
+  font-family: century-gothic, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
 body{
 margin: 0;
 padding: 0;
 position: relative;
-
 }
 
 
@@ -15,9 +21,6 @@ position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
-    
-
-
 }
 
 .logo img {
@@ -33,8 +36,14 @@ position: relative;
     right: 15px;
 }
 
+.cotiza{
+  position: absolute;
+  top: 375px;
+  left: 170px;
+}
+
+
 .but{
-    
     border-radius: 40px;
     border-color: transparent;
     background-color: #DC662D;
@@ -43,14 +52,35 @@ position: relative;
 }
 
 .but a{
-
     font-size: 17px;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+.butt{
+  border-radius: 15px;
+  border-color: transparent;
+  background-color: #ff712b;
+  color: #ffffff;
+  height: 40px;
+}
+
+.butt:hover{
+
+  transform: scale(1.04);
+
+
+}
+
+
+.butt a{
+  font-size: 17px;
+  margin: 15px;
 }
 
 .user img{
-    max-width: 27px;
+    max-width: 30px;
     
 }
 
@@ -65,6 +95,44 @@ position: relative;
   background: linear-gradient(90deg, rgba(0,84,133,1) 30% ,  rgba(0,84,133,0.5) 60% , 
    rgba(3,120,187,0) 66%  ),
    url(../img/nino-padres-felices-tiro-medio-edit.jpg);
+   
+   background-size:contain;
+   background-position: right;
+   background-repeat: no-repeat;
+
+}
+
+
+.aqui{
+  margin: 145px 0 35px;
+  width: 100%;
+  height: 495px;
+  position: relative;
+  display: flex;
+  align-items:start;
+  justify-content: left;
+  background: linear-gradient(90deg, rgba(3,120,187,0) 30% ,  rgba(0,84,133,0.5) 40% , 
+  rgba(0,84,133,1) 50%),
+   url(../img/IMG_6215.jpg);
+   background-size:contain;
+   background-position: left;
+   background-repeat: no-repeat;
+
+}
+
+
+.travel{
+  margin: 130px 0 35px;
+  width: 100%;
+  height: 400px;
+  position: relative;
+  display: flex;
+  align-items:end;
+  justify-content: right;
+  background: linear-gradient(90deg, rgba(0,84,133,1) 57% ,  rgba(0,84,133,0.5) 75% , 
+   rgba(3,120,187,0) 85%  ),
+   url(../img/cerrar-sonriente-nina-abrazando-padre-.jpg);
+   
    background-size:contain;
    background-position: right;
    background-repeat: no-repeat;
@@ -77,6 +145,7 @@ position: relative;
 }
 
 .texto h1{
+  font-weight: bold;
   position: absolute;
   top: 20px;
   left: 170px;
@@ -88,17 +157,16 @@ position: relative;
   position: absolute;
   top: 150px;
   left: 170px;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .texto ul{
   position: absolute;
-  top: 230px;
-  left: 170px;
-  font-size: 18px;
+  top: 226px;
+  left: 155px;
+  font-size: 16px;
 }
 .texto li{
-  
   color: #DC662D;
 }
 
@@ -106,13 +174,122 @@ position: relative;
   color: #ffffff;
 }
 
+#nota{
+  font-size: 11px;
+  position: absolute;
+  top: 440px;
+  left: 170px;
+}
+
+
+.aqui__texto{
+  color: #ffffff;
+}
+
+.aqui__texto h1{
+  font-weight: bold;
+  position: absolute;
+  top: 90px;
+  left: 735px;
+  font-size: 40px;
+}
+
+.aqui__texto p{
+  position: absolute;
+  top: 190px;
+  left: 735px;
+  font-size: 16px;
+}
+
+.leer{
+  position: absolute;
+  top: 340px;
+  left: 905px;
+}
+
+.aqui__texto hr{
+  position: absolute;
+  background-color: rgba(220,102,45,1);
+  border-color: transparent;
+  height: 5px;
+  top: 80px;
+  left: 735px;
+  width: 7%;
+
+}
+
+
+.travel__texto{
+  color: #ffffff;
+}
+
+.travel__texto h1{
+  position: absolute;
+  width: 100%;
+  top: 175px;
+  left: 120px;
+  font-size: 25px;
+}
+
+.travel__texto p{
+
+  position: absolute;
+  top: 30px;
+  left: 0px;
+  font-size: 15px;
+}
+
+.travel__img img{
+  position: absolute;
+  height: 120px;
+  top: 75px;
+  left: 100px;
+
+}
+
+.cotiza2{
+  position: absolute;
+  top: 120px;
+  left: 170px;
+}
+
+
+.travel__texto hr{
+  position: absolute;
+  background-color: rgba(220,102,45,1);
+  border-color: transparent;
+  height: 5px;
+  top: 45px;
+  left: 118px;
+  width: 5%;
+
+}
+
+
+
+
+
+.buscando{
+  background-color: #ffffff;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+    color: #005485;
+   
+}
+
+.buscando h2{
+  font-weight:bold;
+}
+
+
 /* Add a black background color to the top navigation */
 .topnav {
     background-color: #ffffff;
     overflow: hidden;
     display: flex;
     justify-content: center;
-    
     margin-top: 35px;
 
 
@@ -140,5 +317,46 @@ position: relative;
     background-color: #ffffff;
     color: rgba(220,102,45,1);
   }
+
+  .galeria{
+    background-color: #ffffff;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    
+  }
+
+.img {
+    margin: 45px 60px 25px 60px;
+    border: 1px solid #ffffff;
+    padding:40px 0px 40px 0px ;
+    float: left;
+    width: 210px;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.img:hover{
+  transform: scale(1.07);
+  border: 1px solid #ccc;
+}
+
+
+.img img {
+    width: 45%;
+    height: 115px;    
+    filter: invert(26%) sepia(100%) saturate(638%) hue-rotate(164deg) brightness(89%) contrast(108%);
+}
+
+.desc {
+  margin: 0px 60px 0px 60px;
+  width: 210px;
+  text-align: center;
+    color: #005485;
+    font-size: 20px;
+    
+    
+}
   
   

@@ -24,8 +24,7 @@ position: relative;
 }
 
 .logo img {
-    max-width: 150px;
-    
+    max-width: 210px;
     
 }
 
@@ -55,6 +54,7 @@ position: relative;
     font-size: 17px;
     margin-left: 20px;
     margin-right: 20px;
+    font-weight: bold;
 }
 
 
@@ -76,6 +76,7 @@ position: relative;
 
 .butt a{
   font-size: 17px;
+  font-weight: bold;
   margin: 15px;
 }
 

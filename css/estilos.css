@@ -352,6 +352,28 @@ position: relative;
 }
 
 
+.impulsamos__texto{
+  color: #ffffff;
+}
+
+.impulsamos__texto h1{
+  text-align: center;
+  position: absolute;
+  width: 100%;
+  bottom: 90px;
+  left: 0px;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.impulsamos__texto p{
+  position: absolute;
+  bottom: 19px;
+  left: 67px;
+  font-size: 20px;
+  text-align: center;
+}
+
 
 
 .buscando{

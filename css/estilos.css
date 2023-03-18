@@ -219,11 +219,13 @@ position: relative;
 .texto ul{
   position: absolute;
   top: 226px;
-  left: 155px;
+  left: 130px;
   font-size: 16px;
 }
 .texto li{
+  list-style: inside;
   color: #DC662D;
+  margin-bottom: 1px;
 }
 
 .texto li span{
@@ -721,14 +723,15 @@ margin-right: 10px;
 }
 
 .img__galeria img {
-  width: 35%;
-  height: 115px;    
-  filter: invert(26%) sepia(100%) saturate(638%) hue-rotate(164deg) brightness(89%) contrast(108%);
+  width: 52%;
+  height: 180px;
+  
 }
 
 .img__galeria h2{
   color: #005485;
   font-size: 22px;
+  margin-top: 0px;
 }
 
 .img__galeria p{
@@ -884,10 +887,9 @@ margin-right: 10px;
 }
 
 .proposito__parrafo img{
-  height: 100px;
+  height: 107px;
   left: 275px;
-  top: 80px;
-  filter: invert(26%) sepia(100%) saturate(638%) hue-rotate(164deg) brightness(89%) contrast(108%);
+  top: 70px;
   position: absolute;
 }
 
@@ -940,3 +942,74 @@ height: 235px;
   display: inline-flex
 }
 
+
+ /*cuarto archivo inspirate*/
+ /*---------------------------------------------------------------------------------------------------------*/
+
+
+ .historias{
+  width: 100%;
+  height: 285px;
+  position: relative;
+  display: flex;
+  align-items:end;
+  justify-content: right;
+  background: linear-gradient(90deg, rgba(0,84,133,1) 27% , rgba(0,84,133,0.2) 70% ,
+   rgba(3,120,187,0) 80% ), url(../img/pareja-mayor-parque.jpg);
+   background-size:contain;
+   background-position: right;
+   background-repeat: no-repeat;
+}
+
+
+.historias__texto{
+  color: #ffffff;
+  height: 285px;
+  width: 100%;
+}
+
+.historias__texto h1{
+  font-weight: bold;
+  position: absolute;
+  top: 52px;
+  left: 205px;
+  font-size: 24px;
+}
+
+.historias__texto p{
+  position: absolute;
+  top: 125px;
+  left: 205px;
+  font-size: 18.5px;
+}
+
+.historias hr {
+  rotate: 90deg;
+    position: absolute;
+    background-color: rgba(220,102,45,1);
+    border-color: transparent;
+    height: 5px;
+    top: 110px;
+    left: 120px;
+    width: 6.5%;
+}
+
+.suscribirse {
+  position: absolute;
+  top: 215px;
+  left: 204px;
+  border-radius: 15px;
+  border-color: transparent;
+  background-color: #ff712b;
+  color: #ffffff;
+  height: 27px;
+}
+
+.suscribirse:hover{
+  transform: scale(1.04);
+}
+
+.suscribirse a{
+  font-size: 16px;
+  margin: 20px;
+}

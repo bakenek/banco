@@ -446,6 +446,29 @@ position: relative;
     filter: invert(26%) sepia(100%) saturate(638%) hue-rotate(164deg) brightness(89%) contrast(108%);
 }
 
+.img2 img {
+  width: 55%;
+  height: 115px;
+}
+
+.img2:hover{
+  transform: scale(1.07);
+  border: 1px solid #ccc;
+}
+
+
+.img2 {
+  margin: 45px 60px 25px 60px;
+  border: 1px solid #ffffff;
+  background-color: white;
+  padding:40px 0px 40px 0px ;
+  float: left;
+  width: 210px;
+  text-align: center;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
 .desc {
   margin: 0px 60px 0px 60px;
   width: 210px;
@@ -518,7 +541,6 @@ margin-right: 10px;
  /*segundo archivo empresas*/
  /*---------------------------------------------------------------------------------------------------------*/
 
- 
 .Personalizamos{
   width: 100%;
   height: 300px;
@@ -543,9 +565,13 @@ margin-right: 10px;
   width: 100%;
   top: 90px;
   left: 195px;
-  font-size: 13px;
+  font-size: 12px;
   font-weight: bold;
+}
 
+.Personalizamos__texto h1{
+
+  font-weight: bold;
 }
 
 .Personalizamos hr{
@@ -554,11 +580,10 @@ margin-right: 10px;
   background-color: rgba(220,102,45,1);
   border-color: transparent;
   height: 5px;
-  top: 153px;
+  top: 150px;
   left: 100px;
   width: 9%;
 }
-
 
 .parrafo{
   position: relative;
@@ -619,7 +644,6 @@ margin-right: 10px;
   height: 200px;
 }
 
-
 .transicion-media{
   display:flex;
   height: 200px;  
@@ -634,7 +658,6 @@ margin-right: 10px;
   font-size: 30px;
 }
 
-
 .triangulo2{
     background: linear-gradient(15deg, rgb(0, 110, 173) 50%,rgba(0,84,133,1) 51%);
     width: 50%;
@@ -646,7 +669,6 @@ margin-right: 10px;
   width: 50%;
   height: 200px;
 }
-
 
 .transicion-claro{
   display:flex;
@@ -662,7 +684,6 @@ margin-right: 10px;
   font-size: 30px;
 }
 
-
 .triangulo3{
     background: linear-gradient(15deg, rgb(63, 164, 223) 50%,rgb(0, 110, 173) 51%);
     width: 50%;
@@ -675,7 +696,6 @@ margin-right: 10px;
   height: 200px;
 }
 
-
 .oscuro{
   background-color: #005485;
 }
@@ -687,7 +707,6 @@ margin-right: 10px;
 .claro{
   background-color:  rgb(63, 164, 223) ;
 }
-
 
 .img__galeria {
   margin: 45px 60px 25px 60px;
@@ -747,5 +766,178 @@ margin-right: 10px;
 }
 
 
+ /*tercer archivo empresas*/
+ /*---------------------------------------------------------------------------------------------------------*/
 
+
+ 
+.norte{
+  width: 100%;
+  height: 300px;
+  position: relative;
+  display: flex;
+  align-items:end;
+  justify-content: right;
+  background: linear-gradient(90deg, rgba(0,84,133,0.9) 0% ,  rgba(0,84,133,0.3) 65% , 
+   rgba(3,120,187,0) 85%  ),
+   url(../img/diversos-empresarios-sonriendo-mientras-estan-sentados-puestos-trabajo-campana-carrera.jpg);
+   background-size:contain;
+   background-position: right;
+   background-repeat: no-repeat;
+   margin-bottom: 110px;
+   
+}
+
+.norte__texto{
+  color: #ffffff;
+  text-align: left;
+  position: absolute;
+  width: 100%;
+  top: 80px;
+  left: 165px;
+  font-size: 12px;
+  font-weight: bold;
+
+}
+
+.norte__texto h1{
+  font-weight: bold;
+}
+
+.norte hr{
+  rotate: 90deg;
+  position: absolute;
+  background-color: rgba(220,102,45,1);
+  border-color: transparent;
+  height: 5px;
+  top: 135px;
+  left: 60px;
+  width: 9%;
+}
   
+.proposito{margin-top: 25px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.proposito__boton{
+  position: absolute;
+  right: 57%;
+}
+
+
+.but3{
+  border-radius: 40px;
+  border-color: transparent;
+  background-color: #DC662D;
+  color: #ffffff;
+}
+
+.but3 a{
+  font-size: 17px;
+  margin-left: 7px;
+  margin-right: 7px;
+  font-weight: bold;
+}
+
+.proposito__parrafo{
+  position: relative;
+  display: flex;
+  height: 255px;
+  width: 100%;
+
+}
+
+.proposito__parrafo p{
+  padding-top: 35px;
+  width: 100%;
+  position: absolute;
+  left: 33%;
+  text-align: left;
+  font-size: 20px;
+  color: #535353;
+  top: 30px;
+}
+
+.proposito__parrafo h2{
+  padding-top: 10px;
+  width: 100%;
+  position: absolute;
+  left: 33%;
+  text-align: left;
+  font-size: 28px;
+  color: #424242;
+}
+
+
+.proposito__parrafo  hr{
+  rotate: 90deg;
+  position: absolute;
+  background-color: rgba(220,102,45,1);
+  border-color: transparent;
+  left: 28%;
+  height: 4px;
+  top: 121px;
+  width: 6.5%;
+}
+
+.proposito__parrafo img{
+  height: 100px;
+  left: 275px;
+  top: 80px;
+  filter: invert(26%) sepia(100%) saturate(638%) hue-rotate(164deg) brightness(89%) contrast(108%);
+  position: absolute;
+}
+
+
+.transicion-doble{
+  display:flex;
+  height: 235px;  
+}
+
+.triangulo4{
+  background: linear-gradient(14deg,rgb(0, 110, 173) 42%,
+  rgba(0,84,133,1) 43% , rgba(0,84,133,1) 58% ,rgb(0, 110, 173,0) 59%);
+  width: 50%;
+  height: 235px;
+}
+
+.triangulo-inv4 {
+  background: linear-gradient(346deg, rgb(0, 110, 173) 42%,
+  rgba(0,84,133,1) 43% , rgba(0,84,133,1) 58% ,rgb(0, 110, 173,0) 59%);
+width: 50%;
+height: 235px;
+}
+
+#negrita{
+  padding-top: 30px;
+  padding-bottom: 70px;
+  font-weight: bold;
+}
+
+.doble{
+  color: #ffffff;
+  text-align: center;
+}
+
+.doble h1{
+
+  padding-top: 10px;
+
+}
+
+.doble hr{
+  background-color: rgba(220,102,45,1);
+  border-color: transparent;
+  height: 5px;
+  width: 7%;
+}
+
+.doble p{
+  padding-bottom: 145px;
+  text-align: left;
+  align-self: center;
+}
+

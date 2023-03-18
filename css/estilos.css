@@ -109,8 +109,8 @@ position: relative;
   display: flex;
   align-items:start;
   justify-content: left;
-  background: linear-gradient(90deg, rgba(3,120,187,0) 30% ,  rgba(0,84,133,0.5) 40% , 
-  rgba(0,84,133,1) 50%),
+  background: linear-gradient(90deg,  rgba(3,120,187,0) 30% ,  rgba(0,84,133,0.2) 35% , 
+  rgba(0,84,133,1) 47%),
    url(../img/IMG_6215.jpg);
    background-size:contain;
    background-position: left;
@@ -127,7 +127,7 @@ position: relative;
   display: flex;
   align-items:end;
   justify-content: right;
-  background: linear-gradient(90deg, rgba(0,84,133,1) 57% , rgba(0,84,133,0.5) 75% , 
+  background: linear-gradient(90deg, rgba(0,84,133,1) 60% , rgba(0,84,133,0.5) 75% , 
    rgba(3,120,187,0) 85%  ),
    url(../img/cerrar-sonriente-nina-abrazando-padre-.jpg);
    
@@ -154,7 +154,7 @@ position: relative;
 }
 
 .pasos{
-  width: 635px;
+  width: 670px;
   height: 500px;
   position: relative;
   display: flex;
@@ -175,7 +175,7 @@ position: relative;
   }
 
 .impulsamos{
-  width: 635px;
+  width: 670px;
   height: 500px;
   position: absolute;
   display: flex;

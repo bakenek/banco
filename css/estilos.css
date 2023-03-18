@@ -937,6 +937,6 @@ height: 235px;
 
 .doble p{
   padding-bottom: 145px;
-  text-align:Center;
+  display: inline-flex
 }
 

@@ -1148,6 +1148,90 @@ height: 235px;
    100% ), top/100% no-repeat url(../img/concepto-censo-fotografiado-composicion-urbana.jpg);
 }
 
+
+#contravia2{
+  margin: 0;
+  width: 100%;
+  height: 300px;
+  background: linear-gradient(0deg, rgba(0,84,133,1) 10% , rgba(0,84,133,0.1) 90% , 
+  rgba(3,120,187,0) 100% ), left top/120% no-repeat url(../img/1679271932186.png);
+}
+
+#protegidos2{
+  margin: 0;
+  width: 100%;
+  height: 300px;
+  background: linear-gradient(0deg, rgba(0,84,133,1) 10% , rgba(0,84,133,0.1) 90% , rgba(3,120,187,0)
+   100% ), top/100% no-repeat url(../img/1679271036632.jpg);
+}
+
+#muero2{
+  margin: 0;
+  width: 100%;
+  height: 300px;
+  background: linear-gradient(0deg, rgba(0,84,133,1) 10% , rgba(0,84,133,0.1) 90% , rgba(3,120,187,0)
+   100% ), top/135% no-repeat url(../img/1679271932163.jpg);
+}
+
+#impulsamoss2{
+  margin: 0;
+  width: 100%;
+  height: 300px;
+  background: linear-gradient(0deg, rgba(0,84,133,1) 10% , rgba(0,84,133,0.1) 90% , rgba(3,120,187,0)
+   100% ), top/100% no-repeat url(../img/foto-mercantil.png);
+}
+
+
+#contravia3{
+  margin: 0;
+  width: 100%;
+  height: 300px;
+  background: linear-gradient(0deg, rgba(0,84,133,1) 10% , rgba(0,84,133,0.1) 90% , 
+  rgba(3,120,187,0) 100% ), left top/150% no-repeat url(../img/ceramista-asiatica-delantal-pecho-seguro-mano-su-estudio-escultura-arcilla-taller-calida-bienvenida-sonriente-positiva-lista-comenzar-nuevo-taller-ceramica-fabrica-nueva-coleccion-trabajo.jpg);
+}
+
+#protegidos3{
+  margin: 0;
+  width: 100%;
+  height: 300px;
+  background: linear-gradient(0deg, rgba(0,84,133,1) 10% , rgba(0,84,133,0.1) 90% , rgba(3,120,187,0)
+   100% ), top/100% no-repeat url(../img/1679271932208.jpg);
+}
+
+#muero3{
+  margin: 0;
+  width: 100%;
+  height: 300px;
+  background: linear-gradient(0deg, rgba(0,84,133,1) 10% , rgba(0,84,133,0.1) 90% , rgba(3,120,187,0)
+   100% ), top/135% no-repeat url(../img/manos-sosteniendo-concepto-resolucion-problemas-negocios-rompecabezas.jpg);
+}
+
+#impulsamoss3{
+  margin: 0;
+  width: 100%;
+  height: 300px;
+  background: linear-gradient(0deg, rgba(0,84,133,1) 10% , rgba(0,84,133,0.1) 90% , rgba(3,120,187,0)
+   100% ), top/100% no-repeat url(../img/familia-joven-sus-hijos-casa-divirtiendose.jpg);
+}
+
+
+#contravia4{
+  margin: 0;
+  width: 100%;
+  height: 300px;
+  background: linear-gradient(0deg, rgba(0,84,133,1) 10% , rgba(0,84,133,0.1) 90% , 
+  rgba(3,120,187,0) 100% ), right top/150% no-repeat url(../img/pareja-tiro-medio-bailando-juntos.jpg);
+}
+
+#protegidos4{
+  margin: 0;
+  width: 100%;
+  height: 300px;
+  background: linear-gradient(0deg, rgba(0,84,133,1) 10% , rgba(0,84,133,0.1) 90% , rgba(3,120,187,0)
+   100% ), top/100% no-repeat url(../img/1679271932208.jpg);
+}
+
+
 .img__galeria-ins h2{
   font-weight: bold;
   color: #005485;
